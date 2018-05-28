@@ -1,0 +1,36 @@
+JS engine takes our code and execute it
+
+JS engines: Google's V8, SpiderMonkey, JavaScript Core
+
+What happens inside the JS engine?
+1.Our code is parsed by parser, which basically reads our code line by line
+  and checks the code wheather the syntax is correct or not
+  
+  If you makes the mistake, it throws the error and stops the execution
+  If everything is correct then the parser produces the data structure named as Abstract syntax tree
+
+2.The o/p of parser (Abstract syntax tree) is then translated into machine code (not a JS code, which can be executed directly by computer processor)
+
+
+
+All JS codes needs to run in an env that env is called execution context
+default execution context is the global execution context
+
+global execution context is for variables and functions that is not inside of any function.
+
+
+Execution Context in Detail:
+Execution Context Object contains Variable Object(fn arguments in variable declaration as well as fn declarations), Scope Chain (current var obj as well as var obj of all its parents), 'this' variable 
+
+How Execution Context is created?
+It has 2 phases - one is Creation phase, other one is Execuion phase
+Creation Phase: creation of var obj, creation of scope chain, determine value of 'this' variable
+Execution Phase: code of the function that generated the current execution context is ran line by line
+
+Scoping Chain answers the question "where can be access the var"
+
+Execution Stack: Order in which functions are called
+Scope Chain: order in which functions are written lexically
+
+
+'this' refers to the default window object

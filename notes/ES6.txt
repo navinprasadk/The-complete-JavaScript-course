@@ -1,0 +1,14 @@
+Benefits of ES6
+They help in writing concise JavaScript functions.
+They have implicit returns, which allows us to write one-liner functions.
+They do not rebind this, which is very useful for click handlers.
+
+
+Arrow functions cannot be used as 1.Constructors 2.Callback functions with Dynamic Context 3.https://medium.com/beginners-guide-to-mobile-web-development/everything-you-need-to-know-about-es6-arrow-functions-and-lexical-this-19cce1a49bdf
+
+In ES2015(ES6), a new (6th) datatype called symbol was created.
+
+
+
+References:
+https://medium.com/beginners-guide-to-mobile-web-development/everything-you-need-to-know-about-es6-arrow-functions-and-lexical-this-19cce1a49bdf

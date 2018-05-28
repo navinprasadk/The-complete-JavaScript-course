@@ -1,0 +1,67 @@
+Light weight(doesn't use much memory of computer, simple syntax), cross-platform, object-oriented
+
+WEBPAGE:
+HTML -> content
+CSS -> presentation
+JS -> dynamic effects / presentation
+
+JS Evolution:
+1996 -> The name LiveScript changed to JavaScript to attract Java Developers
+1997 -> ECMAScript 1 became the first version of JS language standard
+	ECMAScript: Language standard
+	JavaScript: Language in practise
+2009 -> ECMAScript 5 (ES5) was released
+2015 -> ECMAScript 2015 (ES2015) was released: biggest ever update
+2016 -> ES2016 with minor changes
+
+ES5 -> supported in all modern browsers
+ES6/ES2015 -> only partial support(2016), can't use in production(2016)
+ES2016 -> No support 
+
+Primitive Data Types:
+Number Floating point numbers, for decimals and integers
+String sequence of characters, used for text
+Boolean Logical data type that can only be true or false
+Undefined Data type of a variable which doesn't have a value yet
+Null means 'non-existent'
+
+
+JS has dynamic typing
+
+Statement -> doesn't produce any immediate output
+
+Function:
+Normal Function: 
+Expression: 
+
+Array:
+1.) Passing Multiple Arguments
+array/object constructor
+var arr = ['navin', 'prasad', 'kumar'];
+
+array/object literal
+var arr = new Array('kumar', 'kumari', 'meena');
+
+2.) Passing Single Arguments
+// arr3 has length 200 and is empty, while arr4 has length 1 and contains a number
+var arr3 = new Array(200);
+var arr4 = [200];
+
+
+Push -> adds an element at the end of the array
+unshift -> adds an element at the beginning of the array
+pop -> removes an element at the end
+shift -> removes an element at the beginning
+
+indexOf() -> position of the element that we passed
+
+Objects:
+var details = {
+	name: 'navin',
+	age: 23,
+	city: 'Bengaluru'
+};
+details.name;
+details['name'];
+
+

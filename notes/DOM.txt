@@ -1,0 +1,7 @@
+DOM -> Document Object Model
+	Structured representation of HTML document
+	DOM is used to connect webpages to scripts like JS
+
+QuerySelector selects the first element it finds
+textContent -> change the text but it only sets the plain text no HTML
+innerHTML ->
