@@ -4,4 +4,15 @@ DOM -> Document Object Model
 
 QuerySelector selects the first element it finds
 textContent -> change the text but it only sets the plain text no HTML
-innerHTML ->
+innerHTML -> change the text with styles
+
+Events: notifications that are sent to notify the code that something happened to that web page
+Event listener: A fn that performs an action based on a certain event. It waits for a specific event to happen
+
+
+Anonymous fn: It's a fn that doesn't have a name, so we can't reuse
+
+
+getElementById is faster than querySelector
+
+State Variable: It tells us the condition of the system 
